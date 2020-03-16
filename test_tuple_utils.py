@@ -60,7 +60,7 @@ class TupleUtilsTest(unittest.TestCase):
         entries = ('A', 'B', 'C')
         tuple_utils.print_indexes_and_entries(indexes, entries)
 
-        expected = "Index: 1          Entry: A\n" \
+        expected = "Index: 1          Entry: A\n"\
                    "Index: 2          Entry: B\n" \
                    "Index: 3          Entry: C\n"
         self.assertEqual(expected, mock_stdout.getvalue())
